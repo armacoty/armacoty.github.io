@@ -1,0 +1,19 @@
+body{
+    font-family: monospace;
+    font-size: 200%;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #fff;
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: white;
+    }
+}
